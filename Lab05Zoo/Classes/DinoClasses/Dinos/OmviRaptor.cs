@@ -11,7 +11,7 @@ namespace Classes
         public int numberOfCats;
         private string hairColor;
 
-        public Omnivore(string name, bool isIdiot, int numberOfCats)
+        public OmnviRaptor(string name, bool isIdiot, int numberOfCats)
         {
             Console.WriteLine($"I am a constructor for {name}");
             IsIdiot = isIdiot;

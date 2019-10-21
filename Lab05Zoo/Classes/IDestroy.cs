@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Classes
 {
-    class OmniVore : Dinosaurs
+    interface IDestroy
     {
-        public bool doesNotCare { get; set; } = true;
+        void Destroy();
 
     }
 }
