@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Classes
 {
-    class Chris
+    class Omnivore
     {
         public string name;
         public bool isIdiot;
         public int numberOfCats;
         private string hairColor;
 
-        public Chris(string name, bool isIdiot, int numberOfCats)
+        public Omnivore(string name, bool isIdiot, int numberOfCats)
         {
             Console.WriteLine($"I am a constructor for {name}");
             IsIdiot = isIdiot;
@@ -36,39 +36,5 @@ namespace Classes
         private int _numberofCats;
         public int NumberOfCats
         {
-            get
-            {
-                return _numberofCats;
-            }
-            private set
-            {
-                if (value > 0)
-                { 
-                    _numberofCats = value; 
-                }
-                else
-                {
-                    throw new ArgumentException(" -Negative Cat's is a crime.");
-                }
-
-            }
-
         }
-        public string Name { get; }
-        public int HasCats { get; set; }
-        public bool IsIdiot { get; private set; }
-        public string HairColor { get; set; }
-        bool canHelp()
-        {
-            if (IsIdiot)
-            {
-                return true;
-            }
-            return false;
-        }
-        //    void canHelp()
-        //    {
-
-        //    }
     }
-}

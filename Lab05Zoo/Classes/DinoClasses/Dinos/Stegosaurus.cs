@@ -4,54 +4,9 @@ using System.Text;
 
 namespace Classes
 {
-    class Chris
+    class Omnivore
     {
-        public string name;
-        public bool isIdiot;
-        public int numberOfCats;
-        private string hairColor;
-
-        public Chris(string name, bool isIdiot, int numberOfCats)
-        {
-            Console.WriteLine($"I am a constructor for {name}");
-            IsIdiot = isIdiot;
-            Name = name;
-            HairColor = hairColor;
-            NumberOfCats = numberOfCats;
-
-        }
-
-
-        //public int GetMoreCats(inputCats, int value)
-        //{
-        //    int numberOfCatsNew = inputCats + (value);
-        //    return numberOfCatsNew;
-        //}
-        //private string ChangeHair(string input)
-        //{
-        //    string newHair = input;
-        //    return input;
-        //}
-
-        private int _numberofCats;
-        public int NumberOfCats
-        {
-            get
-            {
-                return _numberofCats;
-            }
-            private set
-            {
-                if (value > 0)
-                { 
-                    _numberofCats = value; 
-                }
-                else
-                {
-                    throw new ArgumentException(" -Negative Cat's is a crime.");
-                }
-
-            }
+       
 
         }
         public string Name { get; }

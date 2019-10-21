@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Classes
 {
-    class Chris
+    class OmniVore
     {
         public string name;
         public bool isIdiot;
         public int numberOfCats;
         private string hairColor;
 
-        public Chris(string name, bool isIdiot, int numberOfCats)
+        public OmniVore(string name, bool isIdiot, int numberOfCats)
         {
             Console.WriteLine($"I am a constructor for {name}");
             IsIdiot = isIdiot;
@@ -43,8 +43,8 @@ namespace Classes
             private set
             {
                 if (value > 0)
-                { 
-                    _numberofCats = value; 
+                {
+                    _numberofCats = value;
                 }
                 else
                 {
