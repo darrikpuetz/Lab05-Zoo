@@ -8,8 +8,8 @@ namespace Classes
         {
             //Chris is a class
             //chriscummings is an intance (a.k.a object)
-            Chris chrisCummings = new Chris("ChrisCummings", true, 999);
-            Chris cheddaChris = new Chris("cheddaChris", true, 0);
+            Animal chrisCummings = new Animal("ChrisCummings", true, 999);
+            Animal cheddaChris = new Animal("cheddaChris", true, 0);
         }
     }
 }
