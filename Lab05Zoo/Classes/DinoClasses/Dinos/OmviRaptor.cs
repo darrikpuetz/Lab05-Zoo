@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Classes
 {
-    class Chris
+    class Omnivore
     {
         public string name;
         public bool isIdiot;
         public int numberOfCats;
         private string hairColor;
 
-        public Chris(string name, bool isIdiot, int numberOfCats)
+        public OmnviRaptor(string name, bool isIdiot, int numberOfCats)
         {
             Console.WriteLine($"I am a constructor for {name}");
             IsIdiot = isIdiot;
