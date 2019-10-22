@@ -6,6 +6,7 @@ namespace Classes
 {
     interface IDestroy
     {
+
         void Destroy();
 
     }

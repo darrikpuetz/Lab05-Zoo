@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Classes
 {
-    class Dinosaurs
+    public abstract class Dinosaurs
     {
-        public string Name { get; set; }
-        public bool Scary { get; set; } = false;
-
-
+        public abstract string Name { get; set; }
+        public abstract bool Scary { get; set; } 
+        public abstract bool Eat();
+        public abstract bool Run();
 
 
     }
