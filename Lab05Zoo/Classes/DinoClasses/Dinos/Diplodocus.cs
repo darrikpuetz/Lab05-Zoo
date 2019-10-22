@@ -15,7 +15,7 @@ namespace Classes
         }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = false;
-        virtual public bool LikesLeafs { get; set; } = true;
+        public override bool LikesLeafs { get; set; } = true;
         public override bool Eat()
         {
             return base.Eat();
