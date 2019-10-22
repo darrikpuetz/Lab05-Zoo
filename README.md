@@ -38,6 +38,11 @@ Using UML, diagram what animals the zoo will consist of. Include in each class t
     - Building your code to be able to use abstract methods to work with.
     - Using my abstract methods within other classes to change the function. 
 
+### Interfaces
+An interface is the ability to use a method in a specific class. It is the solution to using methods without specifically using abstract inheritance.
+My interfaces are IDestroy and an IHibernate. Both run methods that are defined in the classes that I choose being the MeatEaters class and the Diplosaurus.
+
+
 ### Getting Started
 Clone this repository to your local machine.
 
