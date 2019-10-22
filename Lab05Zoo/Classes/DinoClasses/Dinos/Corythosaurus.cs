@@ -15,19 +15,8 @@ namespace Classes
         }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = true;
-        virtual public bool SharpTeeth { get; set; } = true;
-        public override bool Eat()
-        {
-            return base.Eat();
-        }
-        public override bool Run()
-        {
-            return Scary;
-        }
-        public override bool Terrorizing()
-        {
-            Console.WriteLine("ROAAAAWWWWWRRRRRRR!!!!!!!!");
-            return Terrorizing();
-        }
+        public override bool SharpTeeth { get; set; } = false;
+
+
     }
 }

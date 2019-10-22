@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Classes
 {
-    class Diplodocus : PlantEater
+    class Diplodocus : PlantEater, IHibernate
     {
         public Diplodocus(string name, bool scary, bool likesLeafs)
         {
@@ -15,19 +15,21 @@ namespace Classes
         }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = false;
-        public override bool LikesLeafs { get; set; } = true;
-        public override bool Eat()
+        public bool LikesLeafs { get; private set; }
+        public override bool LikeLeafs { get; set; } = true;
+
+        public bool Hibernate()
         {
-            return base.Eat();
-        }
-        public override bool Run()
-        {
-            return Scary;
-        }
-        public override bool Ride()
-        {
-            Console.WriteLine("Yeehaw!");
-            return Ride();
+            bool leafs = false;
+            if (LikeLeafs == true)
+            {
+                leafs = true;
+                Console.WriteLine(" Time to go to sleep for a long............time....");
+                return leafs;
+            }
+            else
+                return
+                    leafs;
         }
     }
 }
