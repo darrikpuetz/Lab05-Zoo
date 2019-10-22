@@ -4,9 +4,23 @@ using System.Text;
 
 namespace Classes
 {
-    class PlantEater: Dinosaurs
+    public abstract class PlantEater: Dinosaurs
     {
-        virtual public bool likesLeafs { get; set; } = true;
+        public override string Name { get; set; }
+        public override bool Scary { get; set; } = false;
+        virtual public bool DoesNotCare { get; set; } = true;
+        public override bool Eat()
+        {
+
+        }
+        public override bool Run()
+        {
+
+        }
+        public virtual bool Ride()
+        {
+
+        }
 
     }
 }

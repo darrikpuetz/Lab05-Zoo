@@ -1,7 +1,4 @@
-# Numbers-Game
-
-
-## Lab03 Word Guess
+# Lab 5/6 Zoo
 
 *Author: Darrik Puetz*
 
@@ -9,24 +6,24 @@
 
 ## Description
 
-The main idea of the game is she must guess what a mystery word is by inputting (1) letter at a time. The game should save all of her guesses (both correct and incorrect) throughout each session of the game, along with the ability to show her how many letters out of the word she has guessed correctly.
----
+A zoo contains animals, and animals can come in many different shapes and sizes. It is your job to plan and build out what animals that live in the zoo.
+Using UML, diagram what animals the zoo will consist of. Include in each class the properties and behaviors for each animal, as well as the relationships between each animal from it’s base classes. This zoo has the ability to create new animals to put into the zoo based upon what the user inputs as choices.
 
 ### Getting Started
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/darrikpuetz/Lab03-Word-Guess.git
+$ git clone https://github.com/darrikpuetz/Lab05-Zoo.git
 ```
 
 ### To run the program from Visual Studio:
-Select ```File``` -> ```Open``` -> ```Lab 03 Word Guess```
+Select ```File``` -> ```Open``` -> ```Lab 05 Zoo```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```Lab 03 Word Guess``` directory.
+Double click on the ```Lab 05 Zoo``` directory.
 
-Then select and open ```Lab 03 Word Guess.sln```
+Then select and open ```Lab 05 Zoo`.sln```
 
 ---
 
