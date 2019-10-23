@@ -4,30 +4,26 @@ using System.Text;
 
 namespace Classes
 {
-    class Diplodocus : PlantEater
+    public class Diplodocus : PlantEater, IHibernate
     {
-        public Diplodocus(string name, bool scary, bool likesLeafs)
-        {
-            Name = name;
-            Scary = scary;
-            LikesLeafs = likesLeafs;
 
-        }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = false;
-        public override bool LikesLeafs { get; set; } = true;
-        public override bool Eat()
+        public bool LikesLeafs { get; private set;  } = true;
+        public override bool LikeLeafs { get; set; } = true;
+
+        public bool Hibernate()
         {
-            return base.Eat();
-        }
-        public override bool Run()
-        {
-            return Scary;
-        }
-        public override bool Ride()
-        {
-            Console.WriteLine("Yeehaw!");
-            return Ride();
+            bool leafs = false;
+            if (LikeLeafs == true)
+            {
+                leafs = true;
+                Console.WriteLine("I am hibernating");
+                return leafs;
+            }
+            else
+                return
+                    leafs;
         }
     }
 }

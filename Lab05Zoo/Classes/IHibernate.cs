@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Classes
 {
-    public interface IDestroy
+    public interface IHibernate
     {
 
-        public bool Destroy();
+        public bool Hibernate();
 
     }
 }
