@@ -38,7 +38,7 @@ namespace XUnitTestZoo
         public void TestSteg()
         {
             Stegosaurus newSteg = new Stegosaurus();
-            Assert.True(newSteg.Chillin());
+            Assert.False(newSteg.Chillin());
         }
 
         [Fact]
@@ -73,7 +73,7 @@ namespace XUnitTestZoo
         public void TestOm2()
         {
             OmviRaptor newOm = new OmviRaptor();
-            Assert.True(newOm.Chillin());
+            Assert.False(newOm.Chillin());
         }
 
         [Fact]
