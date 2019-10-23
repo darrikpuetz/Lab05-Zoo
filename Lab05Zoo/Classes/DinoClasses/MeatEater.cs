@@ -8,7 +8,7 @@ namespace Classes
     {
 
         public override string Name { get; set; }
-        public override bool Scary { get; set; } = false;
+        public override bool Scary { get; set; } = true;
         virtual public bool SharpTeeth { get; set; } = true;
         public override bool Eat()
         {
