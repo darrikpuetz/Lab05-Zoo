@@ -4,18 +4,12 @@ using System.Text;
 
 namespace Classes
 {
-    class Diplodocus : PlantEater, IHibernate
+    public class Diplodocus : PlantEater, IHibernate
     {
-        public Diplodocus(string name, bool scary, bool likesLeafs)
-        {
-            Name = name;
-            Scary = scary;
-            LikesLeafs = likesLeafs;
 
-        }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = false;
-        public bool LikesLeafs { get; private set; }
+        public bool LikesLeafs { get; private set;  } = true;
         public override bool LikeLeafs { get; set; } = true;
 
         public bool Hibernate()
@@ -24,7 +18,7 @@ namespace Classes
             if (LikeLeafs == true)
             {
                 leafs = true;
-                Console.WriteLine(" Time to go to sleep for a long............time....");
+                Console.WriteLine("I am hibernating");
                 return leafs;
             }
             else

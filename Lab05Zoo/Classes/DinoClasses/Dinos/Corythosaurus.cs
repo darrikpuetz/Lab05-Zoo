@@ -4,19 +4,25 @@ using System.Text;
 
 namespace Classes
 {
-    class Corythosaurous : MeatEater
+    public class Corythosaurous : MeatEater
     {
-        public Corythosaurous(string name, bool scary, bool sharpTeeth)
-        {
-            Name = name;
-            Scary = scary;
-            SharpTeeth = sharpTeeth;
-
-        }
         public override string Name { get; set; }
         public override bool Scary { get; set; } = true;
-        public override bool SharpTeeth { get; set; } = false;
+        public override bool SharpTeeth { get; set; } = true;
 
+        public override bool Eat()
+        {
+            bool eating1 = false;
+            if (SharpTeeth == true)
+            {
+                eating1 = true;
+                Console.WriteLine("I am Eating");
+                return eating1;
+            }
+            else
+                return
+                    eating1;
 
+        }
     }
 }

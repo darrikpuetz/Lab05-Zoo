@@ -11,11 +11,11 @@ namespace Classes
         virtual public bool LikeLeafs { get; set; } = true;
         public override bool Eat()
         {
-            bool eating1 = true;
+            bool eating1 = false;
             if (Scary == true)
             {
-                eating1 = false;
-                Console.WriteLine("Nom Nom. Yummy!");
+                eating1 = true;
+                Console.WriteLine("I can eat");
                 return eating1;
             }
             else
@@ -30,12 +30,12 @@ namespace Classes
                 if (Scary == true)
                 {
                     running1 = true;
-                    Console.WriteLine(" Hurry this thing moves quick! Better move it.");
+                    Console.WriteLine(" I am scary.");
                     return running1;
                 }
                 else
                 {
-                    Console.WriteLine("It's not scary. You'll be fine.");
+                    Console.WriteLine("I am not scary.");
                     return running1;
                 }
             }
@@ -52,7 +52,7 @@ namespace Classes
             if (LikeLeafs == true)
             {
                 leafs = true;
-                Console.WriteLine("ZZZZZZZZZZZZZzzzzzzz..");
+                Console.WriteLine("You can ride me.");
                 return leafs;
             }
             else

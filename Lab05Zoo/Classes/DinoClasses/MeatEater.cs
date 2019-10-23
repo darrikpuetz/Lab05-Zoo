@@ -37,14 +37,14 @@ namespace Classes
                 }
                 else
                 {
-                    Console.WriteLine("It's not scary. You'll be fine.");
+                    Console.WriteLine(" It's not scary. You'll be fine.");
                     return running1;
                 }
             }
             catch (Exception)
             {
 
-                Console.WriteLine("Are you even scary ? ");
+                Console.WriteLine(" Are you even scary ? ");
                 return running1;
             }
         }
@@ -54,6 +54,7 @@ namespace Classes
             if (Scary == true && SharpTeeth == true)
             {
                 terrorizing = true;
+                Console.WriteLine(" I am Terrorizing!");
             return terrorizing;
             }
             else
@@ -67,7 +68,7 @@ namespace Classes
             if (SharpTeeth == true)
             {
                 sharp = true;
-                Console.WriteLine("Get Out Da Way!!! I'm DESTROYING things.");
+                Console.WriteLine(" Get Out Da Way!!! I'm DESTROYING things.");
                 return sharp;
             }
             else
