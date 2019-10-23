@@ -63,19 +63,20 @@ Then select and open ```Lab 05 Zoo`.sln```
 
 
 ### Visuals
+## UML
 
-#### Application Start
-![Start](https://via.placeholder.com/750x500)
+![UML](https://github.com/darrikpuetz/Lab05-Zoo/blob/master/assets/Lab-05-Zoo-Diagram%20(1).png)
+
+
+
+
 #### Using the Application
-![Using](https://via.placeholder.com/750x500)
-![Still Using](https://via.placeholder.com/750x500)
-#### Application End
-![Admin](https://via.placeholder.com/750x500)
+![Using](https://github.com/darrikpuetz/Lab05-Zoo/blob/master/assets/Using.PNG)
 
 ---
 
 ### Change Log
-1.1: Finished the original version with missing remove word method- 19 OCT 2019  
+1.1: Finished the original version with dll error in testing 22 OCT 2019  
 
 ### Credit 
 1. [System I.O.] https://docs.microsoft.com/en-us/dotnet/standard/io/index
